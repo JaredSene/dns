@@ -1580,6 +1580,10 @@ clubapi: #ivie@hackclub.com @Charmunk
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+clubsite: #jared@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 cockpit: # leafd@hackclub.com @lfd
 - octodns:
     cloudflare:
@@ -1587,10 +1591,6 @@ cockpit: # leafd@hackclub.com @lfd
   ttl: 300
   type: A
   value: 5.161.244.66
-clubsite: #jared@hackclub.com
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
 coeur: # olive@hackclub.com @Olive @Ghost of L87 (Lynn)
   octodns:
     cloudflare:
